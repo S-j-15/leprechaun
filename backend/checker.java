@@ -11,7 +11,7 @@ class checker
 {
     public static void main(String args[])throws SQLException
     {
-        db_connector db=new db_connector("jdbc:mysql://localhost:3306/LMS","root","1507Jash#");//listen ik db passw etc is exposed...this is a toy app
+        db_connector db=new db_connector("jdbc:mysql://XXXX/LMS","XXXXX","XXXXX");//listen ik db passw etc is exposed...this is a toy app
         //real systems we put all these in env var and do it...but who cares amirite :) ?
         //also adolph was lowkey right (skull emoji)...
         //oooh btw this is lowkey a jewish app XD...cus loan...
@@ -247,4 +247,5 @@ class checker
             System.out.println("OOPS!!!");
         }
     }
+
 }
